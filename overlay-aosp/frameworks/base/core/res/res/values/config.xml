@@ -61,4 +61,9 @@
     <string name="config_systemUiIntelligence">com.google.android.as</string>
     <string name="config_systemVisualIntelligence">com.google.android.as</string>
 
+    <!-- Does the device have a notification led -->
+    <bool name="config_hasNotificationLed">false</bool>
+
+    <!-- Whether devices suports in-display fingerprint when screen is off -->
+    <bool name="config_supportsScreenOffUdfps">true</bool>
 </resources>
