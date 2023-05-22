@@ -428,6 +428,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.vendor.usb.usbradio.config=dm
 endif
 
+# NFC
+PRODUCT_PACKAGES += \
+    NfcNci
+
 # Power HAL
 PRODUCT_COPY_FILES += \
 	device/google/gs101/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json

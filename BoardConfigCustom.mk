@@ -19,6 +19,7 @@ TARGET_KERNEL_EXT_MODULE_ROOT := kernel/google/gs101/private/google-modules
 # Manifests
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/aosp/config/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE += device/google/gs101/manifest_radio.xml
+DEVICE_MANIFEST_FILE += hardware/st/nfc/aidl/nfc-service-default.xml
 
 # Partitions
 AB_OTA_PARTITIONS += \
